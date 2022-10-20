@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     background-color: #3c415e;
+    top: -15%;
 }
 
 #master {
@@ -21,6 +22,12 @@ html, body {
 }
 
 .holder {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+.row {
     display: flex;
     margin: auto;
     width: fit-content;
